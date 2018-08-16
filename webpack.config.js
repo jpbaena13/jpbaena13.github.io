@@ -1,6 +1,6 @@
 const path = require('path');
 
-const componentName = 'unc-react-page-transitions';
+const componentName = 'unc-react-popup';
 
 module.exports = {
   entry: './' + componentName + '/index.js',
