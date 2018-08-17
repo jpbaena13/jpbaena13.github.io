@@ -26,11 +26,12 @@ class App extends React.Component {
 
         <section>
           <h2>Install</h2>
-          This package is available on npm as <strong>unc-react-page-transition</strong>.
+          This package is available on npm as <strong>unc-react-page-transitions</strong>.
           Install it using <code>npm install unc-react-page-transitions</code>.
         </section>
 
         <section>
+          <h2>Setup</h2>
           Start by rendering the <code>{'<PageTransitions/>'}</code> component into an element
           on the app and add some <code>{'<Page/>'}</code> components within it. 
           You will need the <code>react</code> and <code>react-dom</code> packages.

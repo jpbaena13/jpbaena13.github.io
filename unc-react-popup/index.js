@@ -34,6 +34,7 @@ class App extends React.Component {
         </section>
 
         <section>
+          <h2>Setup</h2>
           Start by rendering the <code>{'<Popup />'}</code> component within the app as a global component. 
           This component will render each popup instanced. Then use the <code>open</code> static method 
           from Popup instance to create a new popup:
