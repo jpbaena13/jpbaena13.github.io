@@ -4,7 +4,7 @@
   "description": "React Components Pages",
   "main": "dist/index.js",
   "scripts": {
-    "wp": "webpack",
+    "wp": "webpack -w",
     "test": "ava",
     "build": "babel src --out-dir dist"
   },
