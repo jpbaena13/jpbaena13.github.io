@@ -135,6 +135,36 @@ class App extends React.Component {
         </section>
 
         <section>
+          <h3>Calling a Popup with a video from YouTube or Vimeo</h3>
+          If you sets a <code>videoId</code> key on the Popup settings, this will open a
+          iframe with the video. If the <code>videoId</code> is only numbers, the video
+          will be open from Vimeo platform, otherwise it will be open from YouTube platform.
+
+          <pre>
+            <code className="language-jsx">
+              { `
+                Popup.open({
+                  videoId: 'km1AjXF2OcM',
+                  width: '800px'
+                });
+              `}
+            </code>
+          </pre>
+          
+          Click on the button to open a popup <strong>with a YouTube video</strong>:
+           <button className="btn btn-light" 
+                  onClick={
+                    () => { 
+                      Popup.open({
+                        videoId: 'km1AjXF2OcM',
+                        width: '800px'
+                      });
+                    }
+                  }>Open Popup</button>
+          
+        </section>
+
+        <section>
           <h3>Configuration global component</h3>
           There are multiple options you can set when you attach the popup component:
 
